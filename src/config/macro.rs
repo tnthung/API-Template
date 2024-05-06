@@ -1,3 +1,4 @@
+pub(super) use session_log::prelude::*;
 
 
 macro_rules! Val {
@@ -19,7 +20,7 @@ macro_rules! Val {
     let arg = std::env::var($key);
 
     if arg.is_err() {
-      log_warn!(Logger::new("Env"), "{} is not set, using default value", $key);
+      log_warning!(Logger::new("Env"), "{} is not set, using default value", $key);
       $default.to_string()
     }
 

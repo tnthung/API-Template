@@ -4,7 +4,6 @@
 mod r#macro;
 
 use once_cell::sync::Lazy;
-use crate::logger::*;
 use self::r#macro::*;
 
 

@@ -2,13 +2,9 @@
 
 
 mod config;
-mod logger;
 mod routes;
 mod models;
 mod states;
-
-
-pub use logger::*;
 
 
 #[rocket::main]
