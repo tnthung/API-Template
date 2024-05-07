@@ -7,4 +7,4 @@ use once_cell::sync::Lazy;
 use self::r#macro::*;
 
 
-Var!(RUN_MODE, "RUN_MODE", true, "NONE");
+Var!(RUN_MODE, "RUN_MODE", "None");
