@@ -10,7 +10,7 @@ mysql       = "24.0.0"
 regex       = "1.10.3"
 chrono      = "0.4.34"
 once_cell   = "1.19.0"
-session_log = "0.1.2"
+session_log = "0.1.3"
 uuid        = { version = "1.8.0"  , features = ["v4", "fast-rng"] }
 serde       = { version = "1.0.197", features = ["derive"] }
 rocket      = { version = "0.5.0"  , features = ["json"] }
