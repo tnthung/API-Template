@@ -21,7 +21,7 @@ async fn main() -> Result<(), rocket::Error> {
   rocket = rocket;
 
   if *config::RUN_MODE == "DEV" {
-    rocket = rocket.mount("/test", routes::test::ROUTES.clone())
+    rocket = rocket.mount("/test", routes::test::ROUTES.clone());
   }
 
   // launch
